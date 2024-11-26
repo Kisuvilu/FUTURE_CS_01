@@ -1,14 +1,14 @@
 # FUTURE_CS_01
-Django 2FA Project
+**Django 2FA Project**
 A simple Django project with Two-Factor Authentication (2FA) features to enhance security. This project serves as a foundation for integrating 2FA into your web applications.
 
-Features
+**Features**
     • User authentication with login functionality. 
     • Modular and scalable project structure. 
     • Static files and templates for customization. 
     • Built-in database setup (SQLite3 by default). 
 
-    Project Structure
+**Project Structure**
 django_2fa_project/
 │
 ├── app/
@@ -37,26 +37,25 @@ django_2fa_project/
 ├── manage.py
 └── requirements.txt
 
-Getting Started
-Prerequisites
+**Getting Started**
+**Prerequisites**
     • Python 3.8 or higher 
     • Virtual Environment (optional but recommended) 
-
 
 Setup
     1. Clone the Repository
        git clone https://github.com/your-username/django-2fa-project.git
        cd django-2fa-project
     2. Create a Virtual Environment
-       python -m venv venv
+       python -m "venv venv
        source venv/bin/activate   # On Windows: venv\Scripts\activate
     3. Install Dependencies
        pip install -r requirements.txt
     4. Apply Migrations
-       python manage.py makemigrations
-       python manage.py migrate
+       python manage.py #makemigrations
+       python manage.py #migrate
     5. Run the Development Server
-       python manage.py runserver
+       python manage.py #runserver
     6. Access the App Open your browser and navigate to: http://127.0.0.1:8000/
 
 
